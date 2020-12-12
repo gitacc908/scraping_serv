@@ -26,7 +26,7 @@ def home(request):
 		page_obj = paginator.get_page(page_number)
 		context['object_list'] = page_obj
 
-	return render(request, 'scraping/home.html', context)
+	return render(request, 'scraping/index.html', context)
 
 
 
